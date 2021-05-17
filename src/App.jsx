@@ -13,6 +13,13 @@ export function App() {
       completed: false,
       completedAt: undefined,
       createdAt: Date.now(),
+      workingTime: undefined,
+      workingStartTime: undefined,
+      woekingEndTime: undefined,
+      started: false,
+      notes: "",
+      parentId: undefined,
+      children: [],
     },
   ]);
 
